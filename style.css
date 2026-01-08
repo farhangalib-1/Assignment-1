@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    max-width: 1600px;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 16px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+nav button{
+    padding: 16px 12px;
+    background-color: #469165;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+nav ul li a:hover{
+    color: #469165;
+}
+nav button:hover{
+    background-color: #ffffff;
+    color: #469165;
+}
+
+section .hero-container{
+    background-image:url(/images/hero-bg.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+section .content{
+width: 1521px ;
+height: 674px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center; 
+padding: 70px 120px 134px 120px;
+
+}
+.early-access{
+    max-width: 229px;
+}
+.early-access button{
+    padding: 12px 8px;
+    border: none;
+    border-radius: 1000px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #469165;
+    background-color: #ffffff;
+}
+section .content .heading{
+    max-width: 770px;
+    padding-top: 16px;
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 16px;
+}
+section .content span{
+    color: #469165;
+}
+
+section .content p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+section .buttons{
+    padding-top: 32px;
+}
+section .buttons button{
+    margin-right: 16px;
+}
+section .buttons #button-1{
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #ffffff;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+}
+
+section .buttons #button-2{
+    padding: 16px 12px;
+    font-size: 16px;
+    font-weight: 600px;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+}
