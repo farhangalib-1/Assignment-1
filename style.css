@@ -185,4 +185,46 @@ section .card-1 p{
     font-size: 16px;
     line-height: 16px;
     color: #627382;
+    margin-bottom: 21.5px;
+}
+
+section .main-content-section-2-content{
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+}
+section .main-content-section-2-content img{
+    border-radius: 0px;
+}
+section .main-content-section-2-text-content{
+    margin-top:102px;
+}
+section #para-1{
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 20px;
+    padding-bottom: 16px;
+    color: #469165;
+    text-transform: uppercase;
+}
+section .para-2{
+    font-size: 48px;
+    font-weight: bold;
+}
+section .para-3{
+    padding-top: 16px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+section ul{
+    list-style: none;
+}
+section ul li{
+    line-height: 20px;
+    padding-bottom: 16px;
+}
+section ul li img{
+    padding-right: 6px;
 }
