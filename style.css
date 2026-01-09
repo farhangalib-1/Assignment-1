@@ -45,77 +45,144 @@ nav ul li a:hover{
 nav button:hover{
     background-color: #ffffff;
     color: #469165;
+    border: 2px solid #469165;
 }
-
 section .hero-container{
-    background-image:url(/images/hero-bg.png);
-    background-size: 100%;
-    background-position: center;
+    background-image: url(images/hero-bg.png);
     background-repeat: no-repeat;
-    
+    background-size: cover;
 }
-section .content{
-width: 1521px ;
-height: 674px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center; 
-padding: 70px 120px 134px 120px;
-
+section .hero-container .content{
+    max-width: 1360px;
+    margin: 0 auto;
 }
-.early-access{
+section .hero-container .content .early-access{
+    display: flex;
+    justify-content: center;
+    padding-top: 115.5px;
+}
+section .hero-container .content .early-access button{
     max-width: 229px;
-}
-.early-access button{
     padding: 12px 8px;
-    border: none;
     border-radius: 1000px;
-    font-size: 16px;
-    font-weight: 600;
+    border: none;
     color: #469165;
     background-color: #ffffff;
+    cursor: pointer;
 }
-section .content .heading{
-    max-width: 770px;
-    padding-top: 16px;
+section .hero-container .content .early-access button:hover{
+    background-color: #469165;
+    color: #ffffff;
+}
+section .content .heading-1{
+    display: flex;
+    justify-content: center;
     font-size: 40px;
     color: #ffffff;
-    padding-bottom: 16px;
 }
-section .content span{
+section .content .heading-2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
     color: #469165;
 }
-
 section .content p{
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 28px;
     color: #ffffff;
+    font-weight: 400;
 }
-section .buttons{
-    padding-top: 32px;
+section .content .buttons{
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    gap:32px;
+    padding-bottom: 210px;
 }
-section .buttons button{
-    margin-right: 16px;
-}
-section .buttons #button-1{
-    padding: 16px 12px;
-    font-size: 16px;
-    font-weight: 600px;
-    color: #ffffff;
+section .content .buttons #button-1{
+    max-width: 465px;
     background-color: #469165;
+    color: #ffffff;
+    padding: 16px 12px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
-
-section .buttons #button-2{
-    padding: 16px 12px;
-    font-size: 16px;
-    font-weight: 600px;
-    color: #ffffff;
+section .content .buttons #button-2{
+    max-width: 465px;
     background-color: transparent;
+    color: #ffffff;
+    padding: 16px 12px;
     border: 1px solid white;
     border-radius: 4px;
+    cursor: pointer;
+}
+section .content .buttons #button-1:hover{
+    background-color: white;
+    color: #469165;
+}
+section .content .buttons #button-2:hover{
+    color: #469165;
+}
+section .main-content-section-1-contents{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.h-and-p{
+    padding-top: 40px;
+}
+section .h-and-p h1{
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    padding-bottom: 16px;
+    color: #001931;
+}
+section .h-and-p p{
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+    font-size:16px ;
+    color: #787878;
+    padding-bottom: 44px;
+}
+section .card{
+    display: flex;
+    gap: 24px;
+}
+section .card-1{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px 0px 8px 0px #c1c1c1f0;
+    max-width: 322px;
+}
+section .card-1 img{
+    padding: 15.52px 16.59px;
+    background-color: #F95555;
+    border-radius: 500px;
+    margin-top: 69.5px;
+    margin-left: 131px;
+    margin-right: 131px;
+    max-width: 66px;
+}
+section .card-1 .heading{
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #001931;
+    font-weight: 600;
+    font-size: 24px;
+}
+section .card-1 p{
+    max-width: 274px;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 16px;
+    line-height: 16px;
+    color: #627382;
 }
