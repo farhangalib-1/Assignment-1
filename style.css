@@ -228,3 +228,64 @@ section ul li{
 section ul li img{
     padding-right: 6px;
 }
+section .challenge-section-all-contents{
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin: 0 auto;
+}
+section .text-contents-challenge-section{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+section .text-contents-challenge-section .heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    padding-bottom: 16px;
+}
+section #parag-1{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+}
+section #parag-2{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    padding-bottom: 24px;
+}
+section .challange-section-btn{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 543px;
+    padding-right: 543px;
+}
+section .challange-section-btn button{
+    padding: 16px 12px;
+    font-size: 16px;
+    background-color: #469165;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: 0px 10px 20px 0px #00000026;
+}
+section .challange-section-btn button:hover{
+    background-color: #ffffff;
+    color: #469165;
+}
+section .challenge-section-all-contents .last-para{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 80px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
